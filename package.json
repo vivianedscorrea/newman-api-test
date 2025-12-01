@@ -1,0 +1,17 @@
+{
+  "name": "newman-api-test",
+  "version": "1.0.0",
+  "main": "index.js",
+    "scripts": {
+        "test": "newman run collection.json",
+        "test:report": "newman run collection.json -r htmlextra"
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "newman": "^6.2.1",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
